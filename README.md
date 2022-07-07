@@ -4,7 +4,7 @@ Nothing interesting to say about this, here's the install steps:
 
 ```sh
 # Gentoo dependency install.
-emerge --ask x11-libs/libX11 x11-libs/libXft 
+emerge --ask x11-libs/libXft x11-libs/libXinerama media-libs/fontconfig media-libs/freetype
 emerge --ask media-fonts/jetbrains-mono # Optional, the default font.
 
 # Install dmenu.
